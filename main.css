@@ -1,3 +1,43 @@
 body{
+    margin: 0px;
     background-color: red;
+}
+
+.box{
+    background-color: black;
+    height: 300px;
+    width: 300px;
+}
+
+@media screen and (max-width: 375px) {
+    body {
+      background-color: blue;
+    }
+
+    .box{
+        width: 50%;
+        background-color: green;
+    }
+}
+
+@media screen and (min-width: 400px) {
+    body {
+      background-color: red;
+    }
+
+    .box{
+        width: 50%;
+        background-color: black;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    body {
+      background-color: pink;
+    }
+
+    .box{
+        width: 50%;
+        background-color: yellow;
+    }
 }
